@@ -3,7 +3,7 @@ import torch
 from PIL import Image
 
 model = torch.hub.load(
-    "ultralytics/yolov5", "custom", path="testDeploy/weights/best.pt"
+    "ultralytics/yolov5", "custom", path="Deploy/weights/best.pt"
 )
 video = cv2.VideoCapture(0)
 while True:
